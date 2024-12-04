@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222831;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.container {
+  padding: 24px;
+  max-width: 400px;
+  width: 100vw;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  background-color: #31363f;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+}
+
+.form-container input {
+  width: 100%;
+  height: 48px;
+  font-size: 1rem;
+  padding-right: 12px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  outline: none;
+  margin-right: 12px;
+  color: #eeeeee;
+}
+
+.form-container input::placeholder {
+  font-size: 1rem;
+}
+
+.form-container button {
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  color: #222831;
+  background-color: #eeeeee;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.result-container {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px dashed #eeeeee;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-container span {
+  color: #eeeeee;
+  font-size: 1.2rem;
+  text-align: center;
+}
