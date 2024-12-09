@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Pokemon Search App</h1>
+    <div class="container">
+      <div class="input-container">
+        <form>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search your pokemon..."
+            required
+          />
+          <button type="submit" id="search-button">Search</button>
+        </form>
+      </div>
+      <div class="card-container">
+        <div class="thumb-container">
+          <div class="name">
+            <p id="pokemon-name">Pokemon</p>
+            <p id="pokemon-id">#</p>
+          </div>
+          <div class="info">
+            <p id="weight">Weight:</p>
+            <p id="height">Height:</p>
+          </div>
+          <div class="image-container">
+            <img src="" alt="" id="sprite" />
+          </div>
+          <div class="type-container" id="types"></div>
+        </div>
+        <div class="details">
+          <table>
+            <thead>
+              <th>Base</th>
+              <th>Stats</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HP:</td>
+                <td><p id="hp">N/A</p></td>
+              </tr>
+              <tr>
+                <td>Attack:</td>
+                <td><p id="attack">N/A</p></td>
+              </tr>
+              <tr>
+                <td>Defense:</td>
+                <td><p id="defense">N/A</p></td>
+              </tr>
+              <tr>
+                <td>Sp. Attck:</td>
+                <td><p id="special-attack">N/A</p></td>
+              </tr>
+              <tr>
+                <td>Sp. Defense:</td>
+                <td>
+                  <p id="special-defense">N/A</p>
+                </td>
+              </tr>
+              <tr>
+                <td>Speed:</td>
+                <td>
+                  <p id="speed">N/A</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
